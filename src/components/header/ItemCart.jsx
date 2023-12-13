@@ -23,7 +23,7 @@ const ItemCart = ({ id, title, image, price, quantity }) => {
       </div>
 
       <button className="delete" onClick={() => removeFromCart(id)}>
-        <img src={deleteWhite}></img>
+        <img src={deleteWhite} alt="delete"></img>
       </button>
     </div>
   );

@@ -31,7 +31,7 @@ const ContainerCart = () => {
     <div className="cart" style={style}>
       <div className="cerrar">
         <button className="close" onClick={closeCart}>
-          <img src={close}></img>
+          <img src={close} alt="close"></img>
         </button>
       </div>
       <div className="containerItemsCart">
@@ -58,7 +58,7 @@ const ContainerCart = () => {
           </button>
 
           <button className="clear" onClick={ClearCart}>
-            <img src={clear}></img>
+            <img src={clear} alt="delete"></img>
           </button>
         </div>
       </div>

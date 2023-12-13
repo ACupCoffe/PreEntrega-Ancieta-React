@@ -9,7 +9,7 @@ const ItemCart = ({ id, title, image, price, quantity }) => {
   return (
     <div className="itemCart">
       <div className="img">
-        <img src={image}></img>
+        <img src={image} alt={title}></img>
       </div>
 
       <div className="description-cantidad">

@@ -16,7 +16,7 @@ const DetailsItem = () => {
     setDatos([]);
 
     fetchSimultion(
-      productos.filter(flt => flt.id == idItem),
+      productos.filter(flt => flt.id === idItem),
       2000
     )
       .then(resp => setDatos(resp))
